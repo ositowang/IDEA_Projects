@@ -58,7 +58,7 @@ public class Array {
         if(size==data.length){
             throw new IllegalArgumentException("The array is full");
         }
-        if(index<0 || index>size){
+        if(index<0 || index>=size){
             throw new IllegalArgumentException("index should be >=0 and less than the capacity of the array");
         }
         for(int i = size-1; i>=index;i--){
@@ -100,4 +100,62 @@ public class Array {
         }
         data[index]=e;
     }
+    /**
+     *  check if the array contains the input number
+     */
+    public boolean contains( int e ){
+        for(int i = 0; i<size;i++){
+            if(data[i] == e)
+            return true;
+        }
+        return false;
+    }
+    /**
+     *  find index, if not exist return -1
+     */
+    public int findindex(int e){
+        for(int i = 0; i<size;i++) {
+            if (data[i] == e)
+                return i;
+        }
+        return -1;
+    }
+    /**
+     *  delete elements from array by index
+     */
+    public int remove_by_index(int index){
+        if(index<0 || index>=size){
+            throw new IllegalArgumentException("index should be >=0 and less than the capacity of the array");
+        }
+        int result = data[index];
+        for(int i=index+1;i<size;i++){
+            data[i-1] = data[i];
+        }
+        size--;
+        return result;
+    }
+    /**
+     * find element by its value
+     */
+    public void remove_by_value(int e ){
+        int index = findindex(e);
+        if(index!=-1){
+            remove_by_index(index);
+        }
+    }
+    /**
+     *  remove all the elements by value
+     */
+//    public void removeallelements(int e){
+//        int data1[] = new int[size];
+//        if(findindex(e) == -1) {
+//            data1.append("");
+//        }
+//        else{
+
+
+
+        }
+    }
+
 }
