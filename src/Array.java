@@ -1,5 +1,5 @@
-public class Array {
-    private int[] data;
+public class Array<E> {
+    private E[] data;
     private int size;
 
     /**
@@ -7,7 +7,7 @@ public class Array {
      * @param capacity
      */
     public Array(int capacity){
-        data = new int[capacity];
+        data = (E[])new Object[capacity];
         size=0;
     }
 
@@ -42,23 +42,23 @@ public class Array {
     /**
      *  add data into the array
      */
-    public void addlast(int e){
+    public void addlast(E e){
         add(size,e);
     }
     /**
      * add to the first place of the arrary
      */
-    public void addfirst(int e){
+    public void addfirst(E e){
         add(0,e);
     }
     /**
      *  add data into specific index
      */
-    public void add(int index, int e){
+    public void add(int index, E e){
         if(size==data.length){
             throw new IllegalArgumentException("The array is full");
         }
-        if(index<0 || index>=size){
+        if(index<0 || index>size){
             throw new IllegalArgumentException("index should be >=0 and less than the capacity of the array");
         }
         for(int i = size-1; i>=index;i--){
@@ -85,7 +85,7 @@ public class Array {
     /**
      *  get data from array
      */
-    int get(int index){
+    E get(int index){
         if(index<0 || index > size){
             throw new IllegalArgumentException("Get Failed, illegal index");
         }
@@ -94,7 +94,7 @@ public class Array {
     /**
      *  set the index position value
      */
-    void set(int index, int e){
+    void set(int index, E e){
         if(index<0 || index > size){
             throw new IllegalArgumentException("Get Failed, illegal index");
         }
@@ -103,9 +103,9 @@ public class Array {
     /**
      *  check if the array contains the input number
      */
-    public boolean contains( int e ){
+    public boolean contains( E e ){
         for(int i = 0; i<size;i++){
-            if(data[i] == e)
+            if(data[i].equals(e))
             return true;
         }
         return false;
@@ -113,9 +113,9 @@ public class Array {
     /**
      *  find index, if not exist return -1
      */
-    public int findindex(int e){
+    public int findindex(E e){
         for(int i = 0; i<size;i++) {
-            if (data[i] == e)
+            if (data[i].equals(e))
                 return i;
         }
         return -1;
@@ -123,11 +123,11 @@ public class Array {
     /**
      *  delete elements from array by index
      */
-    public int remove_by_index(int index){
+    public E remove_by_index(int index){
         if(index<0 || index>=size){
             throw new IllegalArgumentException("index should be >=0 and less than the capacity of the array");
         }
-        int result = data[index];
+        E result = data[index];
         for(int i=index+1;i<size;i++){
             data[i-1] = data[i];
         }
@@ -137,7 +137,7 @@ public class Array {
     /**
      * find element by its value
      */
-    public void remove_by_value(int e ){
+    public void remove_by_value(E e ){
         int index = findindex(e);
         if(index!=-1){
             remove_by_index(index);
@@ -155,7 +155,6 @@ public class Array {
 
 
 
-        }
-    }
-
 }
+
+

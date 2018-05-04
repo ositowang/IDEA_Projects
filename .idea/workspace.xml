@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f270c266-5b16-4295-93e9-7e67bed5d8f9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array.java" afterDir="false" />
     </list>
@@ -19,28 +20,57 @@
       <file leaf-file-name="Array.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="889">
-              <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+            <state relative-caret-position="399">
+              <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
               <folding>
                 <element signature="docComment;method#Array#0;class#Array#0" />
                 <element signature="docComment;method#Array#1;class#Array#0" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
                 <element signature="docComment;method#GetSize#0;class#Array#0" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
                 <element signature="docComment;method#getCapacity#0;class#Array#0" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
                 <element signature="docComment;method#isEmpty#0;class#Array#0" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
                 <element signature="docComment;method#addlast#0;class#Array#0" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
                 <element signature="docComment;method#addfirst#0;class#Array#0" />
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
                 <element signature="docComment;method#add#0;class#Array#0" />
-                <element signature="method#add#0;class#Array#0" />
                 <element signature="method#toString#0;class#Array#0" />
-                <element signature="docComment;method#get#0;class#Array#0" />
-                <element signature="method#get#0;class#Array#0" />
                 <element signature="docComment;method#set#0;class#Array#0" />
-                <element signature="method#set#0;class#Array#0" />
-                <element signature="docComment;field#contai#0;class#Array#0" />
-                <element signature="docComment;field#find#0;class#Array#0" />
-                <element signature="docComment;field#del#0;class#Array#0" />
-                <element signature="method#remove_by_index#0;class#Array#0" />
-                <element signature="docComment;field#fin#0;class#Array#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+              <folding>
+                <element signature="e#63#64#0" expanded="true" />
+                <element signature="e#104#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+              <folding>
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,6 +92,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Create_Own_Array.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Student.java" />
         <option value="$PROJECT_DIR$/src/Array.java" />
       </list>
     </option>
@@ -87,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -106,6 +137,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,6 +160,11 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Student" />
+      <module name="Data_Structure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -169,6 +206,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Student" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -184,17 +226,19 @@
       <workItem from="1524282031697" duration="2366000" />
       <workItem from="1525205524066" duration="4204000" />
       <workItem from="1525294029404" duration="6672000" />
+      <workItem from="1525395800144" duration="3203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13295000" />
+    <option name="totallyTimeSpent" value="16498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32971373" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -202,11 +246,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32971373" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16894531" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16894531" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -220,7 +264,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32971373" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,58 +275,117 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Array.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2926">
+          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+          <folding>
+            <element signature="docComment;method#Array#0;class#Array#0" />
+            <element signature="docComment;method#Array#1;class#Array#0" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="docComment;method#GetSize#0;class#Array#0" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="docComment;method#getCapacity#0;class#Array#0" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="docComment;method#isEmpty#0;class#Array#0" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="docComment;method#addlast#0;class#Array#0" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="docComment;method#addfirst#0;class#Array#0" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#Array#0" />
+            <element signature="method#toString#0;class#Array#0" />
+            <element signature="docComment;method#set#0;class#Array#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1824">
           <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="docComment;method#Array#0;class#Array#0" />
             <element signature="docComment;method#Array#1;class#Array#0" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
             <element signature="docComment;method#GetSize#0;class#Array#0" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
             <element signature="docComment;method#getCapacity#0;class#Array#0" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
             <element signature="docComment;method#isEmpty#0;class#Array#0" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
             <element signature="docComment;method#addlast#0;class#Array#0" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
             <element signature="docComment;method#addfirst#0;class#Array#0" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
             <element signature="docComment;method#add#0;class#Array#0" />
-            <element signature="method#add#0;class#Array#0" />
             <element signature="method#toString#0;class#Array#0" />
-            <element signature="docComment;method#get#0;class#Array#0" />
-            <element signature="method#get#0;class#Array#0" />
             <element signature="docComment;method#set#0;class#Array#0" />
-            <element signature="method#set#0;class#Array#0" />
-            <element signature="docComment;field#contai#0;class#Array#0" />
-            <element signature="docComment;field#find#0;class#Array#0" />
-            <element signature="docComment;field#del#0;class#Array#0" />
-            <element signature="method#remove_by_index#0;class#Array#0" />
-            <element signature="docComment;field#fin#0;class#Array#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Create_Own_Array.java" />
     <entry file="file://$PROJECT_DIR$/src/Create_Own_Array.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#104#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="889">
-          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+        <state relative-caret-position="399">
+          <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding>
             <element signature="docComment;method#Array#0;class#Array#0" />
             <element signature="docComment;method#Array#1;class#Array#0" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
             <element signature="docComment;method#GetSize#0;class#Array#0" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
             <element signature="docComment;method#getCapacity#0;class#Array#0" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
             <element signature="docComment;method#isEmpty#0;class#Array#0" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
             <element signature="docComment;method#addlast#0;class#Array#0" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
             <element signature="docComment;method#addfirst#0;class#Array#0" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
             <element signature="docComment;method#add#0;class#Array#0" />
-            <element signature="method#add#0;class#Array#0" />
             <element signature="method#toString#0;class#Array#0" />
-            <element signature="docComment;method#get#0;class#Array#0" />
-            <element signature="method#get#0;class#Array#0" />
             <element signature="docComment;method#set#0;class#Array#0" />
-            <element signature="method#set#0;class#Array#0" />
-            <element signature="docComment;field#contai#0;class#Array#0" />
-            <element signature="docComment;field#find#0;class#Array#0" />
-            <element signature="docComment;field#del#0;class#Array#0" />
-            <element signature="method#remove_by_index#0;class#Array#0" />
-            <element signature="docComment;field#fin#0;class#Array#0" />
           </folding>
         </state>
       </provider>
