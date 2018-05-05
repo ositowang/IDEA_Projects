@@ -55,11 +55,12 @@ public class Array<E> {
      *  add data into specific index
      */
     public void add(int index, E e){
-        if(size==data.length){
-            throw new IllegalArgumentException("The array is full");
-        }
         if(index<0 || index>size){
             throw new IllegalArgumentException("index should be >=0 and less than the capacity of the array");
+        }
+        if(size == data.length){
+            resize(data.length*2);
+
         }
         for(int i = size-1; i>=index;i--){
             data[i+1]=data[i];
@@ -132,6 +133,9 @@ public class Array<E> {
             data[i-1] = data[i];
         }
         size--;
+        if(size == data.length/4 && data.length/2 != 0){
+            resize(data.length/2);
+        }
         return result;
     }
     /**
@@ -144,14 +148,16 @@ public class Array<E> {
         }
     }
     /**
-     *  remove all the elements by value
+     *  resize the array
      */
-//    public void removeallelements(int e){
-//        int data1[] = new int[size];
-//        if(findindex(e) == -1) {
-//            data1.append("");
-//        }
-//        else{
+    public void resize(int newcapacity){
+        E[] newdata = (E[]) new Object[newcapacity];
+        for(int i =0;i<size;i++){
+            newdata[i] = data[i];
+        }
+        data = newdata;
+
+    }
 
 
 
