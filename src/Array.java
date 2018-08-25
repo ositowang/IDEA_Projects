@@ -17,10 +17,18 @@ public class Array<E> {
     public Array(){
         this(10);
     }
+
+    public Array(E[] arr){
+        data = (E[])new Object[arr.length];
+        for (int i = 0;i<arr.length;i++){
+            data[i] = arr[i];
+        }
+        size = arr.length;
+    }
     /**
      *  Return the array size
      */
-    public int GetSize(){
+    public int getSize(){
         return size;
     }
 
@@ -157,6 +165,34 @@ public class Array<E> {
         }
         data = newdata;
 
+    }
+    // remove the first element
+    public E removeFirst(){
+        return remove_by_index(0);
+    }
+
+    // Remove the last element
+    public E removeLast(){
+        return remove_by_index(size - 1);
+    }
+
+    // Get the last element
+    public E getLast(){
+        return get(size-1);
+    }
+
+    public E getFirst(){
+        return get(0);
+    }
+
+    //交换i j 的位置
+    public void swap(int i, int j){
+        if(i<0||i>=size||j<0||j>size){
+            throw new IllegalArgumentException("Index is illegal");
+        }
+        E t = data[i];
+        data[i] = data[j];
+        data[j] = t;
     }
 
 
