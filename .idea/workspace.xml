@@ -5,34 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f270c266-5b16-4295-93e9-7e67bed5d8f9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pride-and-prejudice.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AVLMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AVLSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BSTMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BSTSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BST_KV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedListMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedListSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedListStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoopQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Merger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SegmentTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RBTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,34 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PriorityQueue.java">
+      <file leaf-file-name="RBTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RBTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SegmentTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SegmentTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1957">
-              <caret line="109" column="59" selection-start-line="109" selection-start-column="59" selection-end-line="109" selection-end-column="59" />
+            <state relative-caret-position="627">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
             </state>
           </provider>
         </entry>
@@ -79,8 +30,8 @@
       <file leaf-file-name="BST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="5510">
+              <caret line="308" selection-start-line="4" selection-end-line="308" />
             </state>
           </provider>
         </entry>
@@ -88,71 +39,8 @@
       <file leaf-file-name="BST_KV.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BST_KV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AVLTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AVLTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6365">
-              <caret line="345" selection-start-line="345" selection-end-line="345" />
-              <folding>
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#1649#1650#0" expanded="true" />
-                <element signature="e#1688#1689#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AVLMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AVLMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AVLSet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AVLSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileOperation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FileOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1520">
+              <caret line="88" selection-end-line="191" />
             </state>
           </provider>
         </entry>
@@ -198,6 +86,7 @@
         <option value="$PROJECT_DIR$/src/FileOperation.java" />
         <option value="$PROJECT_DIR$/src/AVLTree.java" />
         <option value="$PROJECT_DIR$/src/AVLMap.java" />
+        <option value="$PROJECT_DIR$/src/RBTree.java" />
       </list>
     </option>
   </component>
@@ -211,10 +100,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="296" />
-    <option name="y" value="57" />
-    <option name="width" value="2218" />
-    <option name="height" value="1593" />
+    <option name="x" value="294" />
+    <option name="y" value="54" />
+    <option name="width" value="2221" />
+    <option name="height" value="1596" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -396,11 +285,13 @@
       <workItem from="1534910019351" duration="2509000" />
       <workItem from="1534993927317" duration="2475000" />
       <workItem from="1535165572939" duration="702000" />
+      <workItem from="1535311656004" duration="2489000" />
+      <workItem from="1535406319999" duration="3352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79395000" />
+    <option name="totallyTimeSpent" value="85236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1980" height="1080" extended-state="6" />
@@ -428,11 +319,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32917964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32917964" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -440,7 +331,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1688708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -450,7 +341,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -459,10 +350,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32917964" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,24 +368,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
-          <folding>
-            <element signature="docComment;method#Array#0;class#Array#0" />
-            <element signature="docComment;method#Array#1;class#Array#0" />
-            <element signature="docComment;method#getCapacity#0;class#Array#0" />
-            <element signature="docComment;method#isEmpty#0;class#Array#0" />
-            <element signature="docComment;method#addlast#0;class#Array#0" />
-            <element signature="docComment;method#addfirst#0;class#Array#0" />
-            <element signature="docComment;method#add#0;class#Array#0" />
-            <element signature="method#toString#0;class#Array#0" />
-            <element signature="docComment;method#set#0;class#Array#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -861,27 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Merger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -889,27 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SegmentTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="109" column="59" selection-start-line="109" selection-start-column="59" selection-end-line="109" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FileOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,30 +758,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BST_KV.java">
+    <entry file="file://$PROJECT_DIR$/src/AVLSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6365">
-          <caret line="345" selection-start-line="345" selection-end-line="345" />
-          <folding>
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="399">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AVLMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="e#123#124#0" expanded="true" />
             <element signature="e#160#161#0" expanded="true" />
@@ -968,10 +790,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AVLSet.java">
+    <entry file="file://$PROJECT_DIR$/src/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="873">
+          <caret line="345" selection-start-line="345" selection-end-line="345" />
+          <folding>
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SegmentTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="109" column="59" selection-start-line="109" selection-start-column="59" selection-end-line="109" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5510">
+          <caret line="308" selection-start-line="4" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BST_KV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="88" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RBTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>
     </entry>
